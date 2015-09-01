@@ -214,7 +214,7 @@ namespace Deutsch_Englisch_Karteikarten.DataAccess
             {
                 foreach (Deutsch deu in list)
                 {
-                    if (deu.Wort == deutsch.Wort)
+                    if (deu.Wort.Equals(deutsch.Wort, StringComparison.InvariantCultureIgnoreCase)) //if (deu.Wort == deutsch.Wort)
                     {
                         return true;
                     }
@@ -238,7 +238,7 @@ namespace Deutsch_Englisch_Karteikarten.DataAccess
             {
                 foreach (Englisch eng in list)
                 {
-                    if (eng.Word == englisch.Word)
+                    if (eng.Word.Equals(englisch.Word, StringComparison.InvariantCultureIgnoreCase)) //if (eng.Word == englisch.Word)
                     {
                         return true;
                     }
@@ -262,7 +262,7 @@ namespace Deutsch_Englisch_Karteikarten.DataAccess
             {
                 foreach (Deutsch deu in list)
                 {
-                    if (deu.Wort == deutsch.Wort)
+                    if (deu.Wort.Equals(deutsch.Wort, StringComparison.InvariantCultureIgnoreCase)) //if (deu.Wort == deutsch.Wort)
                     {
                         return deu;
                     }
@@ -286,7 +286,7 @@ namespace Deutsch_Englisch_Karteikarten.DataAccess
             {
                 foreach (Englisch eng in list)
                 {
-                    if (eng.Word == englisch.Word)
+                    if (eng.Word.Equals(englisch.Word, StringComparison.InvariantCultureIgnoreCase)) // if (eng.Word == englisch.Word)
                     {
                         return eng;
                     }
