@@ -1,0 +1,11 @@
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\bin\Debug\Deutsch_Englisch_Karteikarten.exe
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\bin\Debug\Deutsch_Englisch_Karteikarten.pdb
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\obj\x86\Debug\Deutsch_Englisch_Karteikarten.Properties.Resources.resources
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\obj\x86\Debug\Deutsch_Englisch_Karteikarten.csproj.GenerateResource.Cache
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\obj\x86\Debug\Deutsch_Englisch_Karteikarten.exe
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\obj\x86\Debug\Deutsch_Englisch_Karteikarten.pdb
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\obj\x86\Debug\Deutsch_Englisch_Karteikarten.Karteikarten.resources
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\obj\x86\Debug\Deutsch_Englisch_Karteikarten.NeuerEintrag.resources
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\obj\x86\Debug\Deutsch_Englisch_Karteikarten.Wörterbuch.resources
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\obj\x86\Debug\Deutsch_Englisch_Karteikarten.csprojResolveAssemblyReference.cache
+C:\Users\b.wood\Documents\Visual Studio 2010\Projects\Deutsch_Englisch_Karteikarten\Deutsch_Englisch_Karteikarten\obj\x86\Debug\Deutsch_Englisch_Karteikarten.Form1.resources
