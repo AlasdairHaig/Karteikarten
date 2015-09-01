@@ -107,13 +107,13 @@ namespace Deutsch_Englisch_Karteikarten.DataAccess
 
                 if (pruefenEnglischList(englisch))
                 {
-                    saveKreuzGuid(deutsch, suchenEnglischRekord(englisch));
+                    saveKreuzGuid(suchenDeutschRekord(deutsch), suchenEnglischRekord(englisch));
                 }
                 else
                 {
                     saveEnglischWord(englisch);
 
-                    saveKreuzGuid(deutsch, englisch);
+                    saveKreuzGuid(suchenDeutschRekord(deutsch), suchenEnglischRekord(englisch));
                 }
             }
             else
@@ -130,7 +130,7 @@ namespace Deutsch_Englisch_Karteikarten.DataAccess
                     }
                     else
                     {
-                        saveKreuzGuid(deu, suchenEnglischRekord(englisch));
+                        saveKreuzGuid(deu, eng);
                     }
                 }
                 else
