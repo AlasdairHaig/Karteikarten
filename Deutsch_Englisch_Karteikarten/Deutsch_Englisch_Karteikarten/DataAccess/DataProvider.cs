@@ -6,6 +6,7 @@ using System.Collections;
 using System.ComponentModel;
 using Deutsch_Englisch_Karteikarten.Modell;
 using System.Data.OleDb;
+using System.Windows.Forms;
 
 namespace Deutsch_Englisch_Karteikarten.DataAccess
 {
@@ -23,6 +24,8 @@ namespace Deutsch_Englisch_Karteikarten.DataAccess
             _connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + _connPath + ";Persist Security Info=False;";
 
         }
+
+        #region first
 
         /// <summary>
         /// Zurückliefert eine Bindinglist, die hält, das Deutsch Tabelle von Datenbank
@@ -335,6 +338,35 @@ namespace Deutsch_Englisch_Karteikarten.DataAccess
 
 
             return false;
+        }
+
+#endregion
+
+
+        /// <summary>
+        /// Diese Methode findet Wörter, die mit bestimmte Bücherstaber anfängt
+        /// Es gibt zurück eine string List
+        /// </summary>
+        /// <param name="substring"></param>
+        /// <returns></returns>
+        public List<string> findMatchesKreuzTabl(string substring)
+        {
+            List<string> searchResults = new List<string>();
+
+            using (OleDbConnection conn = new OleDbConnection(_connString))
+            {
+                conn.Open();
+                OleDbCommand command = new OleDbCommand("Select Wort FROM Deutsch WHERE Wort LIKE @string +'%' ORDER BY Wort", conn);
+                command.Parameters.AddWithValue("@string", substring);
+                OleDbDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    searchResults.Add(reader[0].ToString());
+                }
+                conn.Close();
+            }
+
+            return searchResults;
         }
     }
 }

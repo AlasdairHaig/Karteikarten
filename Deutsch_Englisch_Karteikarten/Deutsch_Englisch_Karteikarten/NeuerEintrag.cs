@@ -65,6 +65,8 @@ namespace Deutsch_Englisch_Karteikarten
             if ((DeutschComboBx.Text != "") && (EnglischComboBx.Text != ""))
             {
                 dt.func(dt, en);
+                DeutschComboBx.Text = "";
+                EnglischComboBx.Text = "";
             }
         }
 

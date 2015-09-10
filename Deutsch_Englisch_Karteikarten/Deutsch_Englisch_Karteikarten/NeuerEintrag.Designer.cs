@@ -40,7 +40,7 @@
             this._alterDatabaseBtn.Location = new System.Drawing.Point(304, 45);
             this._alterDatabaseBtn.Name = "_alterDatabaseBtn";
             this._alterDatabaseBtn.Size = new System.Drawing.Size(20, 20);
-            this._alterDatabaseBtn.TabIndex = 1;
+            this._alterDatabaseBtn.TabIndex = 3;
             this._alterDatabaseBtn.Text = "+";
             this._alterDatabaseBtn.UseVisualStyleBackColor = true;
             this._alterDatabaseBtn.Click += new System.EventHandler(this._alterDatabaseBtn_Click);
@@ -70,7 +70,7 @@
             this.DeutschComboBx.MaxDropDownItems = 6;
             this.DeutschComboBx.Name = "DeutschComboBx";
             this.DeutschComboBx.Size = new System.Drawing.Size(121, 21);
-            this.DeutschComboBx.TabIndex = 3;
+            this.DeutschComboBx.TabIndex = 1;
             // 
             // EnglischComboBx
             // 
@@ -79,7 +79,7 @@
             this.EnglischComboBx.MaxDropDownItems = 6;
             this.EnglischComboBx.Name = "EnglischComboBx";
             this.EnglischComboBx.Size = new System.Drawing.Size(121, 21);
-            this.EnglischComboBx.TabIndex = 3;
+            this.EnglischComboBx.TabIndex = 2;
             // 
             // NeuerEintrag
             // 
